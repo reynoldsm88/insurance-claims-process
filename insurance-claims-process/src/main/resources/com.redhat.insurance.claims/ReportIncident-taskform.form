@@ -1,0 +1,7 @@
+
+<form id="1411588900">
+<property name="name" value="ReportIncident-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<dataHolder supportedType="className" inputId="" name="#E9E371" type="dataModelerEntry" outId="incident" value="com.redhat.insurance.claims.model.Incident" id="incident"/>
+</form>
