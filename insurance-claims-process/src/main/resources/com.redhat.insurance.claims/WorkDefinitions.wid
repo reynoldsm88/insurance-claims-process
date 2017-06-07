@@ -56,6 +56,30 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+
+  [
+    "name" : "Policy Lookup",
+    "parameters" : [
+        "incident" : new ObjectDataType()
+    ],
+    "results" : [
+        "policy" : new ObjectDataType()
+    ],
+    "displayName" : "Policy Lookup",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  ,
+  [
+    "name" : "Get Coverages for Policy",
+    "parameters" : [
+        "policy" : new ObjectDataType()
+    ],
+    "results" : [
+        "policy" : new ObjectDataType()
+    ],
+    "displayName" : "Get Coverages for Policy",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]
