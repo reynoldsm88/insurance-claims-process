@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://www.drools.org/xsd/kmodule">
-
-    <kbase name="insurance-claims-kbase" default="true" packages="com.redhat.insurance.claims">
-        <ksession name="insurance-claims-ksession" default="true" />
-    </kbase>
-
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="insurance-claims-kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.insurance.claims, com.redhat.insurance.claims.rules">
+    <ksession name="insurance-claims-ksession" type="stateful" default="true" clockType="realtime"/>
+  </kbase>
 </kmodule>
